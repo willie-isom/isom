@@ -1,7 +1,7 @@
 import os
 
-if os.path.isfile('fileName.txt'): 
-	with open('fileName.txt', 'r') as file :
+if os.path.isfile(os.path.abspath(os.path.join(os.getcwd(), "..")) + r'\fileName.txt'): 
+	with open(os.path.abspath(os.path.join(os.getcwd(), "..")) + r'\fileName.txt', 'r') as file :
 		fileName = file.readline().strip()
 		fileName = fileName.split(',')
 		fileName = 'git add ' + fileName[2]
