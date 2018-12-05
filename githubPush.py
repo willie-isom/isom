@@ -1,4 +1,4 @@
-import os
+import os, time
 
 #if os.path.isfile(os.path.abspath(os.path.join(os.getcwd(), "..")) + r'\fileName.txt'): 
 	#with open(os.path.abspath(os.path.join(os.getcwd(), "..")) + r'\fileName.txt', 'r') as file :
@@ -13,3 +13,5 @@ import os
 os.system(r'git add .')
 os.system(r'git commit -m "add"')
 os.system(r'git push')
+
+time.sleep(5)
