@@ -14,4 +14,4 @@ os.system(r'git add .')
 os.system(r'git commit -m "add"')
 os.system(r'git push')
 
-time.sleep(5)
+#time.sleep(5)
